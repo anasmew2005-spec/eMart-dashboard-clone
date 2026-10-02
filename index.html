@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>eMart Dashboard</title>
+  <link rel="icon" type="image/png" href="asseset/image/image.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ========== SIDEBAR ========== -->
+  <div class="sidebar">
+    <div class="logo">
+      <img src="asseset/image/logo.png" alt="eMart">
+    </div>
+
+    <p class="label">DASHBOARD</p>
+    <a class="active">Dashboard <span class="arrow">▾</span></a>
+
+    <p class="label">POINT OF SALE</p>
+    <a>POS <span class="arrow">▾</span></a>
+
+    <p class="label">ORDER MANAGEMENT</p>
+    <a>Orders <span class="arrow">▾</span></a>
+
+    <p class="label">ITEM MANAGEMENT</p>
+    <a>Items <span class="arrow">▾</span></a>
+    <a>Addons <span class="arrow">▾</span></a>
+    <a>Categories <span class="arrow">▾</span></a>
+    <a>Tag <span class="arrow">▾</span></a>
+
+    <p class="label">MARKETING SECTION</p>
+    <a>Campaigns <span class="arrow">▾</span></a>
+    <a>Coupons <span class="arrow">▾</span></a>
+    <a>Banners <span class="arrow">▾</span></a>
+
+    <p class="label">ADVERTISEMENT MANAGEMENT</p>
+    <a>Advertisement <span class="arrow">▾</span></a>
+
+    <p class="label">WALLET &amp; FINANCE MANAGEMENT</p>
+    <a>Wallet <span class="arrow">▾</span></a>
+    <p class="label">EMPLOYEE MANAGEMENT</p>
+    <a>Employee Role <span class="arrow">▾</span></a>
+    <a>Employees <span class="arrow">▾</span></a>
+
+    <p class="label">REPORTS</p>
+    <a>Expense Report <span class="arrow">▾</span></a>
+    <a>Disbursement Report <span class="arrow">▾</span></a>
+    <a>VAT Report <span class="arrow">▾</span></a>
+    <a>Sales Report <span class="arrow">▾</span></a>
+  </div>
+
+  <!-- ========== HEADER ========== -->
+  <div class="header">
+    <input type="text" placeholder="Type to search...">
+
+    <div class="user">
+      <span>🔔</span>
+      <span>💬</span>
+      <span class="lang">En</span>
+      <div class="user-info">
+        <b>Anas Khan MEW</b><br>
+        <small>Super Admin</small>
+      </div>
+      <img src="asseset/image/user.png" alt="user" class="avatar">
+    </div>
+  </div>
+
+  <!-- ========== MAIN ========== -->
+  <div class="main">
+
+    <div class="title-row">
+      <div>
+        <h1>Dashboard</h1>
+        <small>dashboard / <span class="blue-text">dashboard</span></small>
+      </div>
+      <div class="date">📅 Oct 02, 2026 &nbsp;&nbsp; Monthly</div>
+    </div>
+
+    <!-- Cards -->
+    <div class="cards">
+
+      <div class="card green">
+        <div class="card-top"><img src="asseset/image/earning.png" alt=""><span class="up">↑ 18%</span></div>
+        <h3>$ 2,968.90</h3><p>Total Earning</p>
+      </div>
+
+      <div class="card green">
+        <div class="card-top"><img src="asseset/image/comission.png" alt=""><span class="up">↑ 18%</span></div>
+        <h3>$ 390.66</h3><p>Commission Given</p>
+      </div>
+
+      <div class="card orange">
+        <div class="card-top"><img src="asseset/image/item.png" alt=""></div>
+        <h3>2600</h3><p>Total Item</p>
+      </div>
+
+      <div class="card green">
+        <div class="card-top"><img src="asseset/image/stock.png" alt=""></div>
+        <h3>18.6K</h3><p>In Stock</p>
+      </div>
+
+      <div class="card red">
+        <div class="card-top"><img src="asseset/image/outstock.png" alt=""></div>
+        <h3>190</h3><p>Out Of Stock</p>
+      </div>
+
+      <div class="card orange">
+        <div class="card-top"><img src="asseset/image/waiting.png" alt=""><span class="up">↑ 18%</span></div>
+        <h3>15</h3><p>Waiting For Confirmation</p>
+      </div>
+
+      <div class="card blue">
+        <div class="card-top"><img src="asseset/image/processing.png" alt=""><span class="up">↑ 18%</span></div>
+        <h3>70</h3><p>Processing Order</p>
+      </div>
+
+      <div class="card green">
+        <div class="card-top"><img src="asseset/image/ready.png" alt=""><span class="up">↑ 18%</span></div>
+        <h3>42</h3><p>Ready For Delivery</p>
+      </div>
+
+      <div class="card blue">
+        <div class="card-top"><img src="asseset/image/delivery.png" alt=""><span class="up">↑ 18%</span></div>
+        <h3>15K</h3><p>Delivered Order</p>
+      </div>
+
+      <div class="card red">
+        <div class="card-top"><img src="asseset/image/refund.png" alt=""><span class="up">↑ 18%</span></div>
+        <h3>$ 580.00</h3><p>Refunded</p>
+      </div>
+
+    </div>
+
+    <!-- Chart (sirf image) -->
+    <div class="chart-box">
+      <img src="asseset/image/chart.png" alt="Earning and Commission chart" class="chart-img">
+    </div>
+
+    <!-- Tables -->
+    <div class="tables">
+
+      <div class="table-box">
+        <h3>Top Selling Product</h3>
+        <table>
+          <tr>
+            <th></th><th>Product Name</th><th>Category</th><th>Price</th><th>Sold</th><th>Profit</th>
+          </tr>
+          <tr>
+            <td><img src="asseset/image/watch.png" class="thumb" alt="watch"></td>
+            <td>Apple Watch Series 7</td><td>Electronics</td><td>$269</td><td>22</td><td class="profit">$45</td>
+          </tr>
+          <tr>
+            <td><img src="asseset/image/macbook.png" class="thumb" alt="macbook"></td>
+            <td>Macbook Pro M1</td><td>Electronics</td><td>$546</td><td>34</td><td class="profit">$125</td>
+          </tr>
+          <tr>
+            <td><img src="asseset/image/dell.png" class="thumb" alt="dell"></td>
+            <td>Dell Inspiron 15</td><td>Electronics</td><td>$443</td><td>64</td><td class="profit">$247</td>
+          </tr>
+          <tr>
+            <td><img src="asseset/image/hp.png" class="thumb" alt="hp"></td>
+            <td>HP Probook 450</td><td>Electronics</td><td>$499</td><td>72</td><td class="profit">$103</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="table-box">
+        <h3>Top rated items</h3>
+        <table>
+          <tr>
+            <th></th><th>Product Name</th><th>Category</th><th>Price</th><th>Rating</th><th>Profit</th>
+          </tr>
+          <tr>
+            <td><img src="asseset/image/watch.png" class="thumb" alt="watch"></td>
+            <td>Apple Watch Series 7</td><td>Electronics</td><td>$269</td><td><span class="star">★</span> 5 (Reviews)</td><td class="profit">$45</td>
+          </tr>
+          <tr>
+            <td><img src="asseset/image/macbook.png" class="thumb" alt="macbook"></td>
+            <td>Macbook Pro M1</td><td>Electronics</td><td>$546</td><td><span class="star">★</span> 5 (Reviews)</td><td class="profit">$125</td>
+          </tr>
+          <tr>
+            <td><img src="asseset/image/dell.png" class="thumb" alt="dell"></td>
+            <td>Dell Inspiron 15</td><td>Electronics</td><td>$443</td><td><span class="star">★</span> 5 (Reviews)</td><td class="profit">$247</td>
+          </tr>
+          <tr>
+            <td><img src="asseset/image/hp.png" class="thumb" alt="hp"></td>
+            <td>HP Probook 450</td><td>Electronics</td><td>$499</td><td><span class="star">★</span> 5 (Reviews)</td><td class="profit">$103</td>
+          </tr>
+        </table>
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+</html>

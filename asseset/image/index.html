@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>eMart Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ========== SIDEBAR ========== -->
+  <div class="sidebar">
+    <div class="logo">
+      <img src="asseset/logo.png" alt="eMart">
+    </div>
+
+    <p class="label">DASHBOARD</p>
+    <a class="active">Dashboard</a>
+
+    <p class="label">POINT OF SALE</p>
+    <a>POS</a>
+
+    <p class="label">ORDER MANAGEMENT</p>
+    <a>Orders</a>
+
+    <p class="label">ITEM MANAGEMENT</p>
+    <a>Items</a>
+    <a>Addons</a>
+    <a>Categories</a>
+    <a>Tag</a>
+
+    <p class="label">MARKETING SECTION</p>
+    <a>Campaigns</a>
+    <a>Coupons</a>
+    <a>Banners</a>
+
+    <p class="label">ADVERTISEMENT MANAGEMENT</p>
+    <a>Advertisement</a>
+
+    <p class="label">WALLET & FINANCE MANAGEMENT</p>
+    <a>Wallet</a>
+
+    <p class="label">EMPLOYEE MANAGEMENT</p>
+    <a>Employee Role</a>
+    <a>Employees</a>
+
+    <p class="label">REPORTS</p>
+    <a>Expense Report</a>
+    <a>Disbursement Report</a>
+    <a>VAT Report</a>
+    <a>Sales Report</a>
+  </div>
+
+  <!-- ========== HEADER ========== -->
+  <div class="header">
+    <input type="text" placeholder="Type to search...">
+
+    <div class="user">
+      <span>🔔</span>
+      <span>💬</span>
+      <span class="lang">En</span>
+      <div class="user-info">
+        <b>Cyndy Lillibridge</b><br>
+        <small>Super Admin</small>
+      </div>
+      <img src="asseset/user.png" alt="user" class="avatar">
+    </div>
+  </div>
+
+  <!-- ========== MAIN ========== -->
+  <div class="main">
+
+    <div class="title-row">
+      <div>
+        <h1>Dashboard</h1>
+        <small>dashboard / <span class="blue-text">dashboard</span></small>
+      </div>
+      <div class="date">📅 Dec 29, 2023 - Jan 4, 2024 &nbsp;&nbsp; Monthly</div>
+    </div>
+
+    <!-- Cards -->
+    <div class="cards">
+
+      <div class="card green">
+        <div class="card-top"><img src="asseset/earning.png" alt=""><span class="up">↑ 18%</span></div>
+        <h3>$ 2,968.90</h3><p>Total Earning</p>
+      </div>
+
+      <div class="card green">
+        <div class="card-top"><img src="asseset/comission.png" alt=""><span class="up">↑ 18%</span></div>
+        <h3>$ 390.66</h3><p>Commission Given</p>
+      </div>
+
+      <div class="card orange">
+        <div class="card-top"><img src="asseset/item.png" alt=""></div>
+        <h3>2600</h3><p>Total Item</p>
+      </div>
+
+      <div class="card green">
+        <div class="card-top"><img src="asseset/stock.png" alt=""></div>
+        <h3>18.6K</h3><p>In Stock</p>
+      </div>
+
+      <div class="card red">
+        <div class="card-top"><img src="asseset/outstock.png" alt=""></div>
+        <h3>190</h3><p>Out Of Stock</p>
+      </div>
+
+      <div class="card orange">
+        <div class="card-top"><img src="asseset/waiting.png" alt=""><span class="up">↑ 18%</span></div>
+        <h3>15</h3><p>Waiting For Confirmation</p>
+      </div>
+
+      <div class="card blue">
+        <div class="card-top"><img src="asseset/processing.png" alt=""><span class="up">↑ 18%</span></div>
+        <h3>70</h3><p>Processing Order</p>
+      </div>
+
+      <div class="card green">
+        <div class="card-top"><img src="asseset/ready.png" alt=""><span class="up">↑ 18%</span></div>
+        <h3>42</h3><p>Ready For Delivery</p>
+      </div>
+
+      <div class="card blue">
+        <div class="card-top"><img src="asseset/delivery.png" alt=""><span class="up">↑ 18%</span></div>
+        <h3>15K</h3><p>Delivered Order</p>
+      </div>
+
+      <div class="card red">
+        <div class="card-top"><img src="asseset/refund.png" alt=""><span class="up">↑ 18%</span></div>
+        <h3>$ 580.00</h3><p>Refunded</p>
+      </div>
+
+    </div>
+
+    <!-- Chart -->
+    <div class="chart-box">
+      <div class="chart-head">
+        <h3>Earning and Commission</h3>
+        <div class="legend">
+          <span><i class="dot dark"></i> Total earning : $ 2,968.90</span>
+          <span><i class="dot light"></i> Commission given : $ 390.66</span>
+        </div>
+      </div>
+
+      <div class="chart-wrap">
+        <div class="y-axis">
+          <span>400K</span>
+          <span>300K</span>
+          <span>200K</span>
+          <span>100K</span>
+          <span>0</span>
+        </div>
+
+        <div class="chart-area">
+          <div class="chart">
+            <div class="bar" style="height:85%"></div>
+            <div class="bar" style="height:78%"></div>
+            <div class="bar" style="height:25%"></div>
+            <div class="bar" style="height:45%"></div>
+            <div class="bar" style="height:90%"></div>
+            <div class="bar" style="height:60%"></div>
+            <div class="bar" style="height:28%"></div>
+            <div class="bar" style="height:65%"></div>
+            <div class="bar" style="height:72%"></div>
+            <div class="bar" style="height:50%"></div>
+            <div class="bar" style="height:58%"></div>
+            <div class="bar" style="height:42%"></div>
+            <div class="bar" style="height:62%"></div>
+            <div class="bar" style="height:22%"></div>
+            <div class="bar" style="height:40%"></div>
+            <div class="bar" style="height:58%"></div>
+            <div class="bar" style="height:68%"></div>
+            <div class="bar" style="height:92%"></div>
+            <div class="bar" style="height:45%"></div>
+            <div class="bar" style="height:70%"></div>
+            <div class="bar" style="height:92%"></div>
+            <div class="bar" style="height:82%"></div>
+            <div class="bar" style="height:42%"></div>
+            <div class="bar" style="height:64%"></div>
+            <div class="bar" style="height:92%"></div>
+            <div class="bar" style="height:80%"></div>
+            <div class="bar" style="height:52%"></div>
+            <div class="bar" style="height:88%"></div>
+            <div class="bar" style="height:12%"></div>
+            <div class="bar" style="height:78%"></div>
+            <div class="bar" style="height:62%"></div>
+          </div>
+
+          <div class="x-axis">
+            <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span>
+            <span>6</span><span>7</span><span>8</span><span>9</span><span>10</span>
+            <span>11</span><span>12</span><span>13</span><span>14</span><span>15</span>
+            <span>16</span><span>17</span><span>18</span><span>19</span><span>20</span>
+            <span>21</span><span>22</span><span>23</span><span>24</span><span>25</span>
+            <span>26</span><span>27</span><span>28</span><span>29</span><span>30</span>
+            <span>31</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tables -->
+    <div class="tables">
+
+      <div class="table-box">
+        <h3>Top Selling Product</h3>
+        <table>
+          <tr>
+            <th></th><th>Product Name</th><th>Category</th><th>Price</th><th>Sold</th><th>Profit</th>
+          </tr>
+          <tr>
+            <td><img src="asseset/watch.png" class="thumb" alt="watch"></td>
+            <td>Apple Watch Series 7</td><td>Electronics</td><td>$269</td><td>22</td><td class="profit">$45</td>
+          </tr>
+          <tr>
+            <td><img src="asseset/macbook.png" class="thumb" alt="macbook"></td>
+            <td>Macbook Pro M1</td><td>Electronics</td><td>$546</td><td>34</td><td class="profit">$125</td>
+          </tr>
+          <tr>
+            <td><img src="asseset/dell.png" class="thumb" alt="dell"></td>
+            <td>Dell Inspiron 15</td><td>Electronics</td><td>$443</td><td>64</td><td class="profit">$247</td>
+          </tr>
+          <tr>
+            <td><img src="asseset/hp.png" class="thumb" alt="hp"></td>
+            <td>HP Probook 450</td><td>Electronics</td><td>$499</td><td>72</td><td class="profit">$103</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="table-box">
+        <h3>Top rated items</h3>
+        <table>
+          <tr>
+            <th></th><th>Product Name</th><th>Category</th><th>Price</th><th>Rating</th><th>Profit</th>
+          </tr>
+          <tr>
+            <td><img src="asseset/watch.png" class="thumb" alt="watch"></td>
+            <td>Apple Watch Series 7</td><td>Electronics</td><td>$269</td><td><span class="star">★</span> 5 (Reviews)</td><td class="profit">$45</td>
+          </tr>
+          <tr>
+            <td><img src="asseset/macbook.png" class="thumb" alt="macbook"></td>
+            <td>Macbook Pro M1</td><td>Electronics</td><td>$546</td><td><span class="star">★</span> 5 (Reviews)</td><td class="profit">$125</td>
+          </tr>
+          <tr>
+            <td><img src="asseset/dell.png" class="thumb" alt="dell"></td>
+            <td>Dell Inspiron 15</td><td>Electronics</td><td>$443</td><td><span class="star">★</span> 5 (Reviews)</td><td class="profit">$247</td>
+          </tr>
+          <tr>
+            <td><img src="asseset/hp.png" class="thumb" alt="hp"></td>
+            <td>HP Probook 450</td><td>Electronics</td><td>$499</td><td><span class="star">★</span> 5 (Reviews)</td><td class="profit">$103</td>
+          </tr>
+        </table>
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+</html>
